@@ -1,0 +1,44 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+#supawiki,
+#supawiki * {
+	box-sizing: border-box;
+}
+
+#supawiki {
+	width: 100%;
+	max-width: 900px;
+	padding-right: 2em;
+}
+
+#supawiki code {
+	vertical-align: middle;
+    padding: .2em .4em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: .8em;
+    line-height: 1em;
+    text-shadow: none;
+    color: #e40053;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: .3em;
+    white-space: normal;
+}
+
+#icon-supawiki {
+	background: transparent url(../assets/logo.png) no-repeat center center;
+	background-size: contain;
+	width: 64px;
+	height: 64px;
+	margin-top: 20px;
+	border-radius: 32px;
+}
+
+#wp-2-supawiki .submit,
+#wp-2-supawiki-json .submit {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#supawiki-diagnostics p {
+	font-size: 0.9em;
+	line-height: 1.0em;
+}
